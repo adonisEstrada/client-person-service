@@ -2,12 +2,14 @@ package com.adonis.nttdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-public class NttdataApplication {
+@EnableFeignClients
+public class ClientPersonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NttdataApplication.class, args);
+		SpringApplication.run(ClientPersonApplication.class, args);
 	}
 
 }
