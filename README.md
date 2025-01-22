@@ -1,2 +1,2 @@
 # client-person-service
-service to manage clients and persons (nttdataChallenge)
+service to manage clients and persons
